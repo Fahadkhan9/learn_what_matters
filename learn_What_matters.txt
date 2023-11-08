@@ -1,0 +1,28 @@
+REACT Notes
+*Name of the component should be given by capital letters
+*Props sending the data to the parent to child element we use props,it send the data as objects
+*In next version of react routing is done using creating the folder with the name of the route which you want to give and Using the LINK  tag also 
+*Axios
+steps for using axios
+1.) npm i axios
+2.) import axios from axios
+3.) create a button
+4.) apply onclick and call a function using it (getimages)
+5.) getimages function should be async because the axios return a promise
+6.)no inside it call the api using axios.get and store it in a variable using usestate
+7.) set the variable to the api variable using setstate
+8.) now use map function for showing it in the html, the api will return the array of objects.
+
+*2 way binding : changes that are made inside a variable is shown to the user as well as the react this is known as the 2 way binding for example if we use the setstate for changing the variable inside the form the variable also changes and the changes are also shown in the front end or the ui 
+     so in this react act as a mediocar which does'nt let us interact directly with the dom , we have to first make changes in react then it make changes in DOM
+
+
+*Routing and dynamic routing in next(app-routing) 
+basically what happens is that sending the id in the url with params such as id by creating the folder structure with square brackets is termed as the dynamic routing 
+
+*Context api 
+ In normal react the flow of data with props is unidirectional which is from parent to child but what happens in context api the data is stored inside a particular place which is accessible to all of the elements present inside the react 
+
+
+
+
